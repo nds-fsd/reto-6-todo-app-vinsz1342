@@ -105,20 +105,22 @@ function App() {
           <label>Task</label>
           <input
             type="text"
+            placeholder="ADD Task"
             value={titulo}
             onChange={(e) => setTitulo(e.target.value)}
           />
         </div>
 
         <div>
-          <label>Fecha:</label>
+          <label>Date:</label>
           <input
             type="text"
+            placeholder="YYYY-MM-DD"
             value={fecha}
             onChange={(e) => setFecha(e.target.value)}
           />
         </div>
-        <button onClick={handlePostClick}>Enviar POST</button>
+        <button onClick={handlePostClick}>Send</button>
       </div>
       <div className="todo-list">
         {todoList.map((todo) => (
