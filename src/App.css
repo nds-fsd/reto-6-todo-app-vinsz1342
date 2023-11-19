@@ -1,6 +1,3 @@
-/* App.css */
-
-/* Estilos generales */
 body {
   background-color: #1f1f1f;
   color: #fff;
@@ -16,7 +13,6 @@ body {
   padding-top: 20px;
 }
 
-/* Estilos para la lista de tareas */
 .todo-list {
   width: 80%;
   margin-bottom: 20px;
@@ -83,7 +79,6 @@ button:hover {
   color: #ccc;
 }
 
-/* Estilos para el checkbox */
 input[type="checkbox"] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -100,7 +95,6 @@ input[type="checkbox"]:checked {
   background-color: #4caf50;
 }
 
-/* Hover sobre el checkbox */
 input[type="checkbox"]:hover {
   background-color: #666;
 }
