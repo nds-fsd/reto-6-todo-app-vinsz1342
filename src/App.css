@@ -41,17 +41,22 @@ input[type="checkbox"] {
 input[type="text"] {
   width: 70%;
 }
-
+.delete {
+  background-color: rgb(214, 46, 46);
+}
+.footCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 button {
   background-color: #4caf50;
   color: white;
   cursor: pointer;
 }
-
 button:hover {
   background-color: #45a049;
 }
-
 .card {
   background-color: #444;
   padding: 10px;
@@ -92,7 +97,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-  background-color: #4caf50;
+  background-color: #17d31d;
 }
 
 input[type="checkbox"]:hover {
