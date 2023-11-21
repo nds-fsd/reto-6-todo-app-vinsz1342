@@ -112,7 +112,7 @@ function App() {
       );
 
       setTodoList(updatedTodoList);
-      setIsEditing(null); // Termina la edición después de la actualización
+      setIsEditing(null);
     } catch (error) {
       console.error("Error:", error);
     }
@@ -191,7 +191,7 @@ function App() {
                 </div>
                 <div className="footCard">
                   <p className="cardDate">{todo.fecha}</p>
-                  <button onClick={() => setIsEditing(todo.id)}>Modify</button>
+                  <button onClick={() => setIsEditing(todo.id)}>Edit</button>
                 </div>
               </div>
             )}
