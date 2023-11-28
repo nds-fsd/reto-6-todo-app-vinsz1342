@@ -1,0 +1,105 @@
+body {
+  background-color: #1f1f1f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.todo-list {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+label {
+  display: block;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+button,
+input[type="checkbox"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+input[type="text"] {
+  width: 70%;
+}
+.delete {
+  background-color: rgb(214, 46, 46);
+}
+.footCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+.card {
+  background-color: #444;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.headCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headCard.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.cardTitle {
+  margin: 0;
+}
+
+.cardDate {
+  margin-top: 5px;
+  color: #ccc;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #555;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #17d31d;
+}
+
+input[type="checkbox"]:hover {
+  background-color: #666;
+}
